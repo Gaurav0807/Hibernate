@@ -20,9 +20,9 @@ public class App
         
         //creating Student
         Student s = new Student();
-        s.setId(2);
-        s.setFirstname("Nikhil");
-        s.setLastname("Rawat");
+        s.setId(3);
+        s.setFirstname("Deepak");
+        s.setLastname("Yadav");
         
         
        Session session = factory.openSession();

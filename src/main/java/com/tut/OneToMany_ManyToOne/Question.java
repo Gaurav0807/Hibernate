@@ -2,6 +2,7 @@ package com.tut.OneToMany_ManyToOne;
 
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.Id;
@@ -16,7 +17,7 @@ public class Question {
 	private int qid;
 	private String question;
 	
-	@OneToMany(mappedBy="question",fetch=FetchType.EAGER)
+	@OneToMany(mappedBy="question",fetch=FetchType.EAGER,cascade=CascadeType.ALL)
 	private List<Answer> answer;
 	
 	

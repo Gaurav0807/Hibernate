@@ -19,8 +19,19 @@ public class Answer {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+	
 		
 	
+	public Answer(int aid, String answer) {
+		super();
+		this.aid = aid;
+		this.answer = answer;
+	}
+
+
+
+
 	public Answer(int aid, String answer, Question question) {
 		super();
 		this.aid = aid;

@@ -49,8 +49,8 @@ public class MainStart {
        l2.add(p1);
        l2.add(p2);
        
-      e1.setProject(l2);
-      p2.setEmp(l1);
+       e1.setProject(l2);
+       p2.setEmp(l1);
       
 
        Transaction t = session.beginTransaction();       
